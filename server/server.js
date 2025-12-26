@@ -7,7 +7,7 @@ import 'dotenv/config';
 import connectDB from "./configs/db.js";
 import connectCloudinary from "./configs/cloudinary.js";
 
-import userRouter from "./routes/Userroute.js";
+import userRouter from "./routes/userRoute.js";
 import sellerRouter from "./routes/sellerRoute.js";
 import productRouter from "./routes/productRoute.js";
 import cartRouter from "./routes/cartRoute.js";
