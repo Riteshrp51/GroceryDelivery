@@ -6,7 +6,6 @@ const authUser = async (req, res, next) => {
     // 1️⃣ Get token from cookies
     const token = req.cookies?.token;
     if (!token) {
-      console.log("No token found in cookies");
       return res.status(401).json({ success: false, message: "Not authorized" });
     }
 
